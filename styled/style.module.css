@@ -1,0 +1,101 @@
+
+/* Header styled */
+.headerlogin{
+    @apply ml-32 
+    font-semibold 
+    text-2xl
+}
+
+.test_label{
+    @apply before:content-['|']
+    before:absolute
+    before:top-1 
+    before:left-1.5
+    before:transform 
+    before:-translate-x-[-11px]
+    before:rotate-[45deg] 
+    before:w-1 
+    before:h-full
+   after:content-['|']
+   after:absolute
+   after:top-1 
+   after:left-1
+   after:transform 
+   after:-translate-x-[11px]
+   after:rotate-[-45deg]
+   after:w-1.5 
+   after:h-full
+   text-xl; 
+}
+/* Header styled 끝*/
+
+
+
+/* LoginForm styled */
+.loginFormInput{
+    @apply w-full 
+    px-3 
+    py-2 
+    border 
+    opacity-50
+    border-gray-500 
+    rounded-lg 
+    focus:outline-none 
+    focus:ring-2 
+    focus:ring-blue-500 
+}
+
+.loginFormButton{
+    @apply w-full 
+    px-4 py-2 
+    text-white 
+    bg-gray-500 
+    rounded-lg 
+    hover:bg-gray-700 
+    mt-4
+}
+/* LoginForm styled 끝*/
+
+
+
+/* LoginFind styled */
+.loginFindtext{
+    @apply opacity-50
+}
+.loginFindStic{
+    @apply m-2 
+    font-thin 
+    text-xs
+}
+/* LoginForm styled 끝*/
+
+
+
+/* StartButton styled */
+.easyStart {
+    @apply w-1/2 flex justify-center  text-white bg-red-500 rounded-full
+    before:content-['']
+    before:absolute
+    before:top-[20px]
+    before:right-[75px]
+    before:-rotate-[135deg]
+    before:w-2
+    before:h-2
+    before:bg-red-500
+    animate-bounce
+}
+
+.startBtn{
+    @apply w-full 
+    py-3 
+    mt-4 
+    text-black 
+    bg-yellow-300 
+    rounded-full 
+    hover:bg-yellow-400 
+    flex 
+    justify-center 
+    items-center 
+    font-black
+}
+/* StartButton styled 끝*/
